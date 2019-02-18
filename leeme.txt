@@ -1,0 +1,7 @@
+1) Compilar el codigo: Primero usar comandos basicos de ubuntu como cd o mkdir,
+   para llegar al directorio ticTacToe. Luego compilar con "javac -d ./classes
+   ./src/*.java"
+2)Para generar la documentacion, una vez ubicado en el directorio de trabajo se usa: "javadoc -d ./doc -author -version -linksource -private ./src/*.java"
+3)Para ejecutar el codigo se usa: "java -classpath ./classes MainTicTacToe"
+
+para el paso 5,6,7 es lo mismo pero añadiendo "package es.unileon.prg1.ticTacToe;" en los .java del src. Despues se ejecuta, compila y documenta igual.
